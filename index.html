@@ -20,6 +20,7 @@
 
   <!-- CSS
    ================================================== -->
+  <link rel="stylesheet" href="./css/normalize.css">
   <link rel="stylesheet" href="./css/base.css">
   <link rel="stylesheet" href="./css/main.css">
   <script src="https://use.fontawesome.com/0b19921e72.js"></script>
@@ -32,23 +33,17 @@
 
   <!-- header
    ================================================== -->
-  <header>
-
-    <div class="row">
-      <div class="logo">
-        <a href="index.html">Desade Corp</a>
-      </div>
-
-      <div class="social-links">
-        <ul>
-          <li><a href="#"><i class="fa fa-facebook"></i></a></li>
-          <li><a href="#"><i class="fa fa-twitter"></i></a></li>
-          <li><a href="#"><i class="fa fa-pinterest"></i></a></li>
-          <li><a href="#"><i class="fa fa-instagram"></i></a></li>
-        </ul>
+  <header id="ha-header" class="ha-header ha-header-large">
+    <div class="ha-header-perspective">
+      <div class="ha-header-front">
+        <h1><span>Desade Corp.</span></h1>
+        <nav>
+          <a href="http://desadecorp.com">&lsaquo; Home</a>
+          <a href="#about-desade">About</a>
+          <a href="#contact-desade">Contact</a>
+        </nav>
       </div>
     </div>
-
   </header>
   <!-- /header -->
 
@@ -103,11 +98,12 @@
 
     <div class="info-overlay"></div>
 
+    <a name="about-desade"></a>
     <div class="row">
       <div class="col-twelve tabs-wrap">
 
         <ul class="tabs">
-          <li class="active" data-id="tab-about"><i class="icon-user"></i><span>About</span></li>
+          <li class="active" data-id="tab-about"><span><a href="#about-desade">About</a></span></li>
           <li data-id="tab-contact"><i class="icon-mail"></i><span>Contact</span></li>
         </ul>
         <!-- /tabs -->
@@ -125,54 +121,14 @@
 
                   <h1 class="about-section-head">Get To Know Us.</h1>
 
-                  <p class="lead">Lorem ipsum Do commodo in proident enim in dolor cupidatat adipisicing dolore officia nisi aliqua incididunt Ut veniam lorem ipsum Consectetur ut in in eu do.</p>
-
+                  <p class="lead">DESADE has over 25 years of experience specializing in healthcare operations and land development consulting. We create optimized teams comprised of industry experts matched to each project’s specific challenges and opportunities. We deliver results driven solutions that add value to business objectives. </p>
                 </div>
               </div>
               <!-- /tab-content-intro -->
 
               <div class="row about-content tab-entry-content">
-
-                <div class="about-list block-1-3 block-s-1-2 block-tab-full">
-
-                  <div class="container cf">
-                    <!-- Course 1 -->
-                    <div class="bgrid item">
-                      <div class="animation-element bounce-up cf">
-                        <span class="icon"><i class="icon-mobile"></i></span>
-                        <div class="subject development">
-                          <div class="item-content">
-                            <div class="image">
-                              <i class="fa fa-4x fa-heartbeat about-image" aria-hidden="true"></i>
-                            </div>
-
-                            <p class="about-section-text">Sed ut perspiciatis unde omnis iste natus error sit voluptatem accusantium doloremque laudantium, totam rem aperiam, eaque ipsa quae ab illo inventore veritatis et quasi architecto beatae vitae dicta sunt explicabo. Nemo enim
-                              ipsam voluptatem quia voluptas sit aspernatur aut odit aut fugit.
-                            </p>
-                          </div>
-                        </div>
-                      </div>
-                    </div>
-                    <!-- Course 2 -->
-                    <div class="bgrid item">
-                      <div class="animation-element bounce-up cf">
-                        <span class="icon"><i class="icon-mobile"></i></span>
-                        <div class="subject development">
-                          <div class="item-content">
-                            <div class="image">
-                              <i class="fa fa-4x fa-crosshairs" aria-hidden="true"></i>
-                            </div>
-
-                            <p class="about-section-text">Sed ut perspiciatis unde omnis iste natus error sit voluptatem accusantium doloremque laudantium, totam rem aperiam, eaque ipsa quae ab illo inventore veritatis et quasi architecto beatae vitae dicta sunt explicabo. Nemo enim
-                              ipsam voluptatem quia voluptas sit aspernatur aut odit aut fugit.
-                            </p>
-                          </div>
-                        </div>
-                      </div>
-                    </div>
                     <!-- Course 3 -->
                     <div class="bgrid item">
-                      <div class="animation-element bounce-up cf">
                         <span class="icon"><i class="icon-mobile"></i></span>
                         <div class="subject development">
                           <div class="item-content">
@@ -182,30 +138,50 @@
 
                             <h3 class="h05">Mission</h3>
 
-                            <p class="about-section-text">Sed ut perspiciatis unde omnis iste natus error sit voluptatem accusantium doloremque laudantium, totam rem aperiam, eaque ipsa quae ab illo inventore veritatis et quasi architecto beatae vitae dicta sunt explicabo. Nemo enim
-                              ipsam voluptatem quia voluptas sit aspernatur aut odit aut fugit.
+                            <p class="about-section-text">DESADE’s mandate is to bring value based integrated solutions to the businesses and agencies with whom that we engage.
                             </p>
                           </div>
                         </div>
                       </div>
-                    </div>
-                  </div>
-                </div>
 
               </div>
               <!-- /row about-content -->
-
-            </div>
             <!-- /tab-entry -->
 
+                <div class="col-twelve story-content with-bottom-line">
+                  <p class="lead left testimonial about-section-text">
+                    <button id="executivebtn" class="btn btn--blue">KEY EXECUTIVES</button>
+
+<div class="card js-card">
+  <div class="card__wrapper">
+    <div class="card__side is-active">
+      <span class="name">Enitan Adesanya</span> </br>Chief Executive Officer</br> Enitan Adesanya has more than 25 years of experience in healthcare operations risk and financial management, and capital program due diligence, project risk
+      management and cost controls. Enitan served as an executive in many financial operations and risk management roles at Kaiser Permanente for 25 years. As a risk management senior executive, Enitan was responsible for managing
+      the strategic, operational, and regulatory risks associated with Kaiser’s $14 billion annual spend for land acquisitions and facilities development and operations; medical device technology acquisition and operations; strategic
+      procurement and supply chain operations; and physical access and security services. Enitan earned a Bachelor’s degree in Business Administration (Finance) from Ahmadu Bello University in Nigeria and an MBA from Golden Gate
+      University in San Francisco. He also earned an Executive Leadership Certificate from the Harvard Business School. Enitan is a State of California Certified Public Accountant, is certified in Financial Forensics, and is Lean
+      Six Sigma – Green Belt certified.</p>
+    </div>
+    <div class="card__side card__side--back">
+      <span class="name">Ineda Adesanya</span> </br>Principal</br> Ineda is a seasoned land use, capital development and construction management executive having worked in the land development industry for over 25 years. She has managed
+      and directed a myriad of projects and programs including all land use types. In this capacity she has had to facilitate dialogue and manage relations between multiple stakeholders including owners, agencies, contractors,
+      consultants, and community members. Ineda founded IPA Planning Solutions, Inc. in 2000 and managed the company as Principal and Chief Executive Officer. For 18 years, IPA provided land use, facilities, and construction planning
+      and management services for governments, institutions and businesses. Ineda has served as the executive responsible for Peralta Community College District’s Physical Plant and $152 million capital program, and directed the
+      Oakland Unified Schools District’s Facilities, Real Property and $400 million four-year capital program. Ineda is a graduate of the University of California at Berkeley with a Bachelor's degree in Architecture. She completed
+      extensive study in City and Regional Planning and holds professional certification in both Facilities Management and Construction Management.
+    </div>
+  </div>
+</div>
+
+                </div>
           </div>
           <!-- /tab-about -->
-
+  </div>
 
           <!-- tab content contact
    				================================================== -->
           <div id="tab-contact" class="tab-content">
-
+          <a name="contact-desade"></a>
             <div class="tab-entry">
 
               <div class="row tab-entry-intro">
@@ -213,7 +189,7 @@
 
                   <h1>Get In Touch.</h1>
 
-                  <p class="lead">Lorem ipsum Do commodo in proident enim in dolor cupidatat adipisicing dolore officia nisi aliqua incididunt Ut veniam lorem ipsum Consectetur ut in in eu do.</p>
+                  <p class="lead">We Would Like to hear from you.</p>
 
                 </div>
               </div>
@@ -288,32 +264,6 @@
   <!-- /info -->
 
 
-  <!-- CTA Section
-   ================================================== -->
-  <section id="cta">
-
-    <div class="row cta-wrap">
-
-      <div class="col-twelve cta-content">
-
-        <h2 class="quotes">first testimonial</h2>
-        <h2 class="quotes">second testimonial</h2>
-
-      </div>
-
-    </div>
-    <!-- /cta-content -->
-
-  </section>
-  <section id="story">
-
-    <div class="row story-wrap">
-
-      <div class="col-twelve story-content with-bottom-line">
-        <p class="lead left testimonial">Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
-      </div>
-    </div>
-  </section>
 
   <!-- /cta -->
   <div id="photo-container">
